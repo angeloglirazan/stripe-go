@@ -39,7 +39,7 @@ func init() {
 
 	port := os.Getenv("STRIPE_MOCK_PORT")
 	if port == "" {
-		port = "12111"
+		port = "12112"
 	}
 
 	// stripe-mock's certificate for localhost is self-signed so configure a
